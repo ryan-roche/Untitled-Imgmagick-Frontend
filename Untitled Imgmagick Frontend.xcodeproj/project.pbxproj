@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		940813D02A4A40EF00603DA5 /* Untitled_Imgmagick_FrontendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940813CF2A4A40EF00603DA5 /* Untitled_Imgmagick_FrontendApp.swift */; };
+		940813D22A4A40EF00603DA5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940813D12A4A40EF00603DA5 /* ContentView.swift */; };
+		940813D42A4A40F000603DA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940813D32A4A40F000603DA5 /* Assets.xcassets */; };
+		940813D72A4A40F000603DA5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 940813D62A4A40F000603DA5 /* Preview Assets.xcassets */; };
+		940813E22A4A40F000603DA5 /* Untitled_Imgmagick_FrontendTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940813E12A4A40F000603DA5 /* Untitled_Imgmagick_FrontendTests.swift */; };
+		940813EC2A4A40F000603DA5 /* Untitled_Imgmagick_FrontendUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940813EB2A4A40F000603DA5 /* Untitled_Imgmagick_FrontendUITests.swift */; };
+		940813EE2A4A40F000603DA5 /* Untitled_Imgmagick_FrontendUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940813ED2A4A40F000603DA5 /* Untitled_Imgmagick_FrontendUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		940813DE2A4A40F000603DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940813C42A4A40EF00603DA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940813CB2A4A40EF00603DA5;
+			remoteInfo = "Untitled Imgmagick Frontend";
+		};
+		940813E82A4A40F000603DA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 940813C42A4A40EF00603DA5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 940813CB2A4A40EF00603DA5;
+			remoteInfo = "Untitled Imgmagick Frontend";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		940813CC2A4A40EF00603DA5 /* Untitled Imgmagick Frontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Untitled Imgmagick Frontend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940813CF2A4A40EF00603DA5 /* Untitled_Imgmagick_FrontendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled_Imgmagick_FrontendApp.swift; sourceTree = "<group>"; };
+		940813D12A4A40EF00603DA5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		940813D32A4A40F000603DA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		940813D62A4A40F000603DA5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		940813D82A4A40F000603DA5 /* Untitled_Imgmagick_Frontend.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Untitled_Imgmagick_Frontend.entitlements; sourceTree = "<group>"; };
+		940813DD2A4A40F000603DA5 /* Untitled Imgmagick FrontendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Untitled Imgmagick FrontendTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940813E12A4A40F000603DA5 /* Untitled_Imgmagick_FrontendTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled_Imgmagick_FrontendTests.swift; sourceTree = "<group>"; };
+		940813E72A4A40F000603DA5 /* Untitled Imgmagick FrontendUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Untitled Imgmagick FrontendUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		940813EB2A4A40F000603DA5 /* Untitled_Imgmagick_FrontendUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled_Imgmagick_FrontendUITests.swift; sourceTree = "<group>"; };
+		940813ED2A4A40F000603DA5 /* Untitled_Imgmagick_FrontendUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Untitled_Imgmagick_FrontendUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		940813C92A4A40EF00603DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940813DA2A4A40F000603DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940813E42A4A40F000603DA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		940813C32A4A40EF00603DA5 = {
+			isa = PBXGroup;
+			children = (
+				940813CE2A4A40EF00603DA5 /* Untitled Imgmagick Frontend */,
+				940813E02A4A40F000603DA5 /* Untitled Imgmagick FrontendTests */,
+				940813EA2A4A40F000603DA5 /* Untitled Imgmagick FrontendUITests */,
+				940813CD2A4A40EF00603DA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		940813CD2A4A40EF00603DA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				940813CC2A4A40EF00603DA5 /* Untitled Imgmagick Frontend.app */,
+				940813DD2A4A40F000603DA5 /* Untitled Imgmagick FrontendTests.xctest */,
+				940813E72A4A40F000603DA5 /* Untitled Imgmagick FrontendUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940813CE2A4A40EF00603DA5 /* Untitled Imgmagick Frontend */ = {
+			isa = PBXGroup;
+			children = (
+				940813CF2A4A40EF00603DA5 /* Untitled_Imgmagick_FrontendApp.swift */,
+				940813D12A4A40EF00603DA5 /* ContentView.swift */,
+				940813D32A4A40F000603DA5 /* Assets.xcassets */,
+				940813D82A4A40F000603DA5 /* Untitled_Imgmagick_Frontend.entitlements */,
+				940813D52A4A40F000603DA5 /* Preview Content */,
+			);
+			path = "Untitled Imgmagick Frontend";
+			sourceTree = "<group>";
+		};
+		940813D52A4A40F000603DA5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				940813D62A4A40F000603DA5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		940813E02A4A40F000603DA5 /* Untitled Imgmagick FrontendTests */ = {
+			isa = PBXGroup;
+			children = (
+				940813E12A4A40F000603DA5 /* Untitled_Imgmagick_FrontendTests.swift */,
+			);
+			path = "Untitled Imgmagick FrontendTests";
+			sourceTree = "<group>";
+		};
+		940813EA2A4A40F000603DA5 /* Untitled Imgmagick FrontendUITests */ = {
+			isa = PBXGroup;
+			children = (
+				940813EB2A4A40F000603DA5 /* Untitled_Imgmagick_FrontendUITests.swift */,
+				940813ED2A4A40F000603DA5 /* Untitled_Imgmagick_FrontendUITestsLaunchTests.swift */,
+			);
+			path = "Untitled Imgmagick FrontendUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		940813CB2A4A40EF00603DA5 /* Untitled Imgmagick Frontend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940813F12A4A40F000603DA5 /* Build configuration list for PBXNativeTarget "Untitled Imgmagick Frontend" */;
+			buildPhases = (
+				940813C82A4A40EF00603DA5 /* Sources */,
+				940813C92A4A40EF00603DA5 /* Frameworks */,
+				940813CA2A4A40EF00603DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Untitled Imgmagick Frontend";
+			productName = "Untitled Imgmagick Frontend";
+			productReference = 940813CC2A4A40EF00603DA5 /* Untitled Imgmagick Frontend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		940813DC2A4A40F000603DA5 /* Untitled Imgmagick FrontendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940813F42A4A40F000603DA5 /* Build configuration list for PBXNativeTarget "Untitled Imgmagick FrontendTests" */;
+			buildPhases = (
+				940813D92A4A40F000603DA5 /* Sources */,
+				940813DA2A4A40F000603DA5 /* Frameworks */,
+				940813DB2A4A40F000603DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940813DF2A4A40F000603DA5 /* PBXTargetDependency */,
+			);
+			name = "Untitled Imgmagick FrontendTests";
+			productName = "Untitled Imgmagick FrontendTests";
+			productReference = 940813DD2A4A40F000603DA5 /* Untitled Imgmagick FrontendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		940813E62A4A40F000603DA5 /* Untitled Imgmagick FrontendUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 940813F72A4A40F000603DA5 /* Build configuration list for PBXNativeTarget "Untitled Imgmagick FrontendUITests" */;
+			buildPhases = (
+				940813E32A4A40F000603DA5 /* Sources */,
+				940813E42A4A40F000603DA5 /* Frameworks */,
+				940813E52A4A40F000603DA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				940813E92A4A40F000603DA5 /* PBXTargetDependency */,
+			);
+			name = "Untitled Imgmagick FrontendUITests";
+			productName = "Untitled Imgmagick FrontendUITests";
+			productReference = 940813E72A4A40F000603DA5 /* Untitled Imgmagick FrontendUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		940813C42A4A40EF00603DA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					940813CB2A4A40EF00603DA5 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					940813DC2A4A40F000603DA5 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 940813CB2A4A40EF00603DA5;
+					};
+					940813E62A4A40F000603DA5 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 940813CB2A4A40EF00603DA5;
+					};
+				};
+			};
+			buildConfigurationList = 940813C72A4A40EF00603DA5 /* Build configuration list for PBXProject "Untitled Imgmagick Frontend" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 940813C32A4A40EF00603DA5;
+			productRefGroup = 940813CD2A4A40EF00603DA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				940813CB2A4A40EF00603DA5 /* Untitled Imgmagick Frontend */,
+				940813DC2A4A40F000603DA5 /* Untitled Imgmagick FrontendTests */,
+				940813E62A4A40F000603DA5 /* Untitled Imgmagick FrontendUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		940813CA2A4A40EF00603DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940813D72A4A40F000603DA5 /* Preview Assets.xcassets in Resources */,
+				940813D42A4A40F000603DA5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940813DB2A4A40F000603DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940813E52A4A40F000603DA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		940813C82A4A40EF00603DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940813D22A4A40EF00603DA5 /* ContentView.swift in Sources */,
+				940813D02A4A40EF00603DA5 /* Untitled_Imgmagick_FrontendApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940813D92A4A40F000603DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940813E22A4A40F000603DA5 /* Untitled_Imgmagick_FrontendTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		940813E32A4A40F000603DA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				940813EC2A4A40F000603DA5 /* Untitled_Imgmagick_FrontendUITests.swift in Sources */,
+				940813EE2A4A40F000603DA5 /* Untitled_Imgmagick_FrontendUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		940813DF2A4A40F000603DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940813CB2A4A40EF00603DA5 /* Untitled Imgmagick Frontend */;
+			targetProxy = 940813DE2A4A40F000603DA5 /* PBXContainerItemProxy */;
+		};
+		940813E92A4A40F000603DA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 940813CB2A4A40EF00603DA5 /* Untitled Imgmagick Frontend */;
+			targetProxy = 940813E82A4A40F000603DA5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		940813EF2A4A40F000603DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		940813F02A4A40F000603DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		940813F22A4A40F000603DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Untitled Imgmagick Frontend/Untitled_Imgmagick_Frontend.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Untitled Imgmagick Frontend/Preview Content\"";
+				DEVELOPMENT_TEAM = GMBKLQ776M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryan-roche.Untitled-Imgmagick-Frontend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		940813F32A4A40F000603DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Untitled Imgmagick Frontend/Untitled_Imgmagick_Frontend.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Untitled Imgmagick Frontend/Preview Content\"";
+				DEVELOPMENT_TEAM = GMBKLQ776M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryan-roche.Untitled-Imgmagick-Frontend";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		940813F52A4A40F000603DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GMBKLQ776M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryan-roche.Untitled-Imgmagick-FrontendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Untitled Imgmagick Frontend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Untitled Imgmagick Frontend";
+			};
+			name = Debug;
+		};
+		940813F62A4A40F000603DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GMBKLQ776M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryan-roche.Untitled-Imgmagick-FrontendTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Untitled Imgmagick Frontend.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Untitled Imgmagick Frontend";
+			};
+			name = Release;
+		};
+		940813F82A4A40F000603DA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GMBKLQ776M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryan-roche.Untitled-Imgmagick-FrontendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Untitled Imgmagick Frontend";
+			};
+			name = Debug;
+		};
+		940813F92A4A40F000603DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GMBKLQ776M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryan-roche.Untitled-Imgmagick-FrontendUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Untitled Imgmagick Frontend";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		940813C72A4A40EF00603DA5 /* Build configuration list for PBXProject "Untitled Imgmagick Frontend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940813EF2A4A40F000603DA5 /* Debug */,
+				940813F02A4A40F000603DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940813F12A4A40F000603DA5 /* Build configuration list for PBXNativeTarget "Untitled Imgmagick Frontend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940813F22A4A40F000603DA5 /* Debug */,
+				940813F32A4A40F000603DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940813F42A4A40F000603DA5 /* Build configuration list for PBXNativeTarget "Untitled Imgmagick FrontendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940813F52A4A40F000603DA5 /* Debug */,
+				940813F62A4A40F000603DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		940813F72A4A40F000603DA5 /* Build configuration list for PBXNativeTarget "Untitled Imgmagick FrontendUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				940813F82A4A40F000603DA5 /* Debug */,
+				940813F92A4A40F000603DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 940813C42A4A40EF00603DA5 /* Project object */;
+}
