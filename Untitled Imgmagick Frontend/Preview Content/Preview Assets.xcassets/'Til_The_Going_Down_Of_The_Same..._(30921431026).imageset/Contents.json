@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "'Til_The_Going_Down_Of_The_Same..._(30921431026).jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
